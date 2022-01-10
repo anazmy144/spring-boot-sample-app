@@ -38,12 +38,12 @@ public class Student {
         return age;
     }
 
+    public  Student(){}
     public Student(String firstName, int age, String email) {
         this.firstName = firstName;
         this.age = age;
         this.email = email;
     }
-
     @Override
     public String toString(){
          return "{" +

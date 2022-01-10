@@ -8,7 +8,6 @@ import java.util.List;
 
 @Service
 public class StudentService {
-
     private final StudentRepo studentRepo;
     @Autowired
     StudentService(StudentRepo studentRepo){
